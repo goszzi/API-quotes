@@ -17,7 +17,6 @@ h1, h2 {
 }
 .quote,
 .author {
-    margin-top: 150px;
 	color: white;
 	height: 100%;
 	width: 100%;
@@ -26,7 +25,16 @@ h1, h2 {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-    animation: slidein 8s linear;
+}
+
+.quote {
+	margin-top: 50px;
+	animation: slidein 10s linear;
+}
+
+.author {
+	margin-top: 75px;
+	animation: slidein 25s linear;
 }
 
 @keyframes slidein {

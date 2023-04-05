@@ -26,7 +26,7 @@ h1, h2 {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-    animation: slidein 5s linear;
+    animation: slidein 8s linear;
 }
 
 @keyframes slidein {
